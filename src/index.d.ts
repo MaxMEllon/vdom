@@ -1,5 +1,6 @@
 declare namespace JSX {
-  type Element = string;
+  import { VNode } from "./createElement";
+  type Element = VNode;
   interface IntrinsicElements {
     div: {};
     p: {};

@@ -9,4 +9,4 @@ const a = (
   </div>
 );
 
-console.log(renderToString(a as any));
+console.log(renderToString(a));
